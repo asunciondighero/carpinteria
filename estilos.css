@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+*{
+    list-style: none;
+    margin:0;
+    padding: 0;
+  }
+    ul {
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0px;
+    }
+    ul li {
+      width: calc(33% - 30px);
+      margin:15px;
+      height: 150px;
+      background: rgb(125, 223, 85);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    /*agregar cuando quieras el cambio en el responsive*/
+    .responsive {
+      flex-wrap:wrap;
+    }
+    .responsive li:nth-child(2){
+      width:100%;
+    }
+    .responsive li:nth-child(1){
+      width:calc(50% - 30px);
+    }
+    .responsive li:nth-child(3){
+      width:calc(50% - 30px);
+    }
+     
+    .responsive li:nth-child(1){
+      order:1;
+    }
+      .responsive li:nth-child(3){
+      order:1
+    }
+
+header {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: burlywood;
+    width: 100%;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+header ul li {
+    margin: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+
+img {
+    width: 100px;
+}
+
+h1 {
+    font-size: 35px;
+    color: brown;
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-size: 25px;
+    color: black;
+
+}
+
+.caja container col {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flexbox;
+    flex-direction: row-reverse;
+   justify-content: flex-end;
+   
+}
+
+.caja img {
+    border-radius: 50%;
+    width: 350px;
+    height: 330px;
+}
+
+.caja p {
+    font-size: 20px;
+    color: black;
+}
+
+.footer {
+    font-family: unset;
+    font-size: 18px;
+    color: black;
+    background-color:burlywood;
+    display: block;
+    box-sizing: border-box;
+
+}
+  
